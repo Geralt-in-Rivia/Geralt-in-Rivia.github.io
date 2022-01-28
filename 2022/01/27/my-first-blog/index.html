@@ -6,17 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>我的第一个博客 | Cy的博客</title>
+  <title>我的第一篇博客 | Cy的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="本博客搭建方式：hexo+GitHub pages   我的第一篇博客，就来讲讲这篇博客是如何搭建的吧！ 本博客搭建方式：hexo+GitHub pages  准备工作你必须：   有一个GitHub账号 安装了node.js及npm 安装了git">
+  <meta name="description" content="我的第一篇博客，就来讲讲这个博客是如何搭建的吧！ 本博客搭建方式：hexo+GitHub pages  准备工作你必须：   有一个GitHub账号 安装了node.js及npm 安装了git">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我的第一个博客">
+<meta property="og:title" content="我的第一篇博客">
 <meta property="og:url" content="http://example.com/2022/01/27/my-first-blog/index.html">
 <meta property="og:site_name" content="Cy的博客">
-<meta property="og:description" content="本博客搭建方式：hexo+GitHub pages   我的第一篇博客，就来讲讲这篇博客是如何搭建的吧！ 本博客搭建方式：hexo+GitHub pages  准备工作你必须：   有一个GitHub账号 安装了node.js及npm 安装了git">
+<meta property="og:description" content="我的第一篇博客，就来讲讲这个博客是如何搭建的吧！ 本博客搭建方式：hexo+GitHub pages  准备工作你必须：   有一个GitHub账号 安装了node.js及npm 安装了git">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-01-27T12:37:17.000Z">
-<meta property="article:modified_time" content="2022-01-27T16:49:19.991Z">
+<meta property="article:modified_time" content="2022-01-28T04:27:30.520Z">
 <meta property="article:author" content="Cy">
 <meta property="article:tag" content="blog">
 <meta property="article:tag" content="hexo">
@@ -26,7 +26,8 @@
     <link rel="alternative" href="/atom.xml" title="Cy的博客" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/img/favicon.ico">
+    <!-- /themes/yilia/source/ -->
   
   <link rel="stylesheet" type="text/css" href="/./main.0cf68a.css">
   <style type="text/css">
@@ -50,11 +51,18 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="/assets/1.png" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/"></a></h1>
+		  <h1 class="header-author"><a href="/">Cy</a></h1>
 		</hgroup>
+		
+		<!-- <p class="header-subtitle">What can change the nature of a man?</p> -->
+		<a id="hitokoto" href="#"  onmouseover="this.style.color='#7fffd4';" onmouseout="this.style.color='aliceblue';">_(:з」∠)_ 加载中...</a>
+		<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+		<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+
 		
 
 		<nav class="header-menu">
@@ -73,8 +81,6 @@
     			
             
     			
-    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
-    			
             
     			
     			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
@@ -84,11 +90,9 @@
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+					<a class="github" target="_blank" href="https://github.com/Geralt-in-Rivia" title="github"><i class="icon-github"></i></a>
 		        
-					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-		        
-					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+					<a class="qq" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3423700784&site=qq&menu=yes" title="qq"><i class="icon-qq"></i></a>
 		        
 			</div>
 		</nav>
@@ -106,11 +110,13 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="assets/1.png" class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author"></h1>
+			  <h1 class="header-author js-header-author">Cy</h1>
 			</hgroup>
+			
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>What can change the nature of a man?<i class="icon icon-quo-right"></i></p>
 			
 			
 			
@@ -123,11 +129,9 @@
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+						<a class="github" target="_blank" href="https://github.com/Geralt-in-Rivia" title="github"><i class="icon-github"></i></a>
 			        
-						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-			        
-						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+						<a class="qq" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3423700784&site=qq&menu=yes" title="qq"><i class="icon-qq"></i></a>
 			        
 				</div>
 			</nav>
@@ -160,7 +164,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      我的第一个博客
+      我的第一篇博客
     </h1>
   
 
@@ -174,10 +178,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <blockquote>
-<p>本博客搭建方式：hexo+GitHub pages</p>
-</blockquote>
-<blockquote>
-<p>我的第一篇博客，就来讲讲这篇博客是如何搭建的吧！</p>
+<p>我的第一篇博客，就来讲讲这个博客是如何搭建的吧！</p>
 <p>本博客搭建方式：hexo+GitHub pages</p>
 </blockquote>
 <h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>你必须：</p>
@@ -194,27 +195,32 @@
 <blockquote>
 <ul>
 <li>Windows10</li>
-<li><a href="mailto:&#x6e;&#111;&#x64;&#x65;&#46;&#106;&#x73;&#x40;&#49;&#52;&#x2e;&#49;&#54;&#x2e;&#x31;">&#x6e;&#111;&#x64;&#x65;&#46;&#106;&#x73;&#x40;&#49;&#52;&#x2e;&#49;&#54;&#x2e;&#x31;</a></li>
-<li><a href="mailto:&#103;&#x69;&#x74;&#x40;&#50;&#46;&#x32;&#57;&#x2e;&#50;">&#103;&#x69;&#x74;&#x40;&#50;&#46;&#x32;&#57;&#x2e;&#50;</a></li>
-<li><a href="mailto:&#x68;&#x65;&#120;&#111;&#x40;&#x34;&#46;&#x33;&#46;&#48;">&#x68;&#x65;&#120;&#111;&#x40;&#x34;&#46;&#x33;&#46;&#48;</a></li>
+<li>node.js -v14.16.1</li>
+<li>git -v2.29.2</li>
+<li>hexo -v4.3.0</li>
 </ul>
 </blockquote>
 <h3 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h3><ol>
-<li><h4 id="创建一个名为username-github-io的仓库"><a href="#创建一个名为username-github-io的仓库" class="headerlink" title="创建一个名为username.github.io的仓库"></a>创建一个名为<code>username.github.io</code>的仓库</h4></li>
-<li><h4 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装<code>hexo</code></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo</span><br></pre></td></tr></table></figure></li>
-<li><h4 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /f/blogplace/hexo/</span><br><span class="line">$ hexo init    <span class="comment">#hexo会自动下载一些文件到这个目录，包括          node_modules等</span></span><br><span class="line">$ hexo g <span class="comment">#生成</span></span><br><span class="line">$ hexo s <span class="comment">#启动服务</span></span><br></pre></td></tr></table></figure>
+<li><p><strong>创建一个名为<code>username.github.io</code>的仓库</strong></p>
+</li>
+<li><p><strong>安装hexo</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo</span><br></pre></td></tr></table></figure></li>
+<li><p><strong>初始化</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /f/blogplace/hexo/</span><br><span class="line">$ hexo init    <span class="comment">#hexo会自动下载一些文件到这个目录，包括          node_modules等</span></span><br><span class="line">$ hexo g <span class="comment">#生成</span></span><br><span class="line">$ hexo s <span class="comment">#启动服务</span></span><br></pre></td></tr></table></figure>
 
 <p>执行以上命令之后，hexo就会在public文件夹生成相关html文件，这些文件将来都是要提交到github去的</p>
 <p><code>hexo s</code>是开启本地预览服务，打开浏览器访问 <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a> 即可看到内容。</p>
 </li>
-<li><h4 id="修改默认主题"><a href="#修改默认主题" class="headerlink" title="修改默认主题"></a>修改默认主题</h4><p>我修改的主题是<a target="_blank" rel="noopener" href="https://github.com/litten/hexo-theme-yilia">hexo-theme-yilia</a>，<code>hexo</code> 也提供了<a target="_blank" rel="noopener" href="https://hexo.io/themes/">官方主题</a>。</p>
+<li><p><strong>修改默认主题</strong></p>
+<p>我修改的主题是<a target="_blank" rel="noopener" href="https://github.com/litten/hexo-theme-yilia">hexo-theme-yilia</a>，hexo 也提供了<a target="_blank" rel="noopener" href="https://hexo.io/themes/">官方主题</a>。</p>
 <p>下载主题：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /f/Workspaces/hexo/</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/litten/hexo-theme-yilia.git themes/yilia</span><br></pre></td></tr></table></figure>
 
 <p>修改<code>_config.yml</code>中的<code>theme: landscape</code>改为<code>theme: yilia</code>，然后重新执行<code>hexo g</code>来重新生成。</p>
 <p>如果出现一些莫名其妙的问题，可以先执行<code>hexo clean</code>来清理一下public的内容，然后再来重新生成和发布。</p>
 </li>
-<li><h4 id="上传到Github"><a href="#上传到Github" class="headerlink" title="上传到Github"></a>上传到Github</h4><p>配置<code>_config.yml</code>中有关deploy的部分：</p>
+<li><p><strong>上传到Github</strong></p>
+<p>配置<code>_config.yml</code>中有关deploy的部分：</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">git@github.com:liuxianan/liuxianan.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>打开git bash，输入<code>hexo d</code>提交.</p>
@@ -231,27 +237,6 @@
 
       
 
-      
-        <div class="page-reward">
-          <a href="javascript:;" class="page-reward-btn tooltip-top">
-            <div class="tooltip tooltip-east">
-            <span class="tooltip-item">
-              赏
-            </span>
-            <span class="tooltip-content">
-              <span class="tooltip-text">
-                <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
-                  <div class="reward-box">
-                    
-                    
-                  </div>
-                </span>
-              </span>
-            </span>
-          </div>
-          </a>
-        </div>
       
     </div>
     <div class="article-info article-info-index">
@@ -378,7 +363,7 @@
     		&copy; 2022 Cy
     	</div>
       	<div class="footer-right">
-      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      		<!-- <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten -->
       	</div>
     </div>
   </div>
@@ -416,8 +401,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
     
       
-      
-      
     
       
       
@@ -429,15 +412,13 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
       
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
-      
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -512,38 +493,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     	</section>
     
 
-    
-    	<section class="tools-section tools-section-friends" q-show="friends">
-  		
-        <ul class="search-ul">
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接2</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接3</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接4</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接5</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接6</a>
-            </li>
-          
-        </ul>
-  		
-    	</section>
     
 
     
