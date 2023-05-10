@@ -1,0 +1,5 @@
+site_name: Geralt的个人网站
+site_url: https://Geralt-in-Rivia.github.io/mymkdocs
+site_author: Geralt-in-Rivia
+theme:
+  name: mkdocs #主题
